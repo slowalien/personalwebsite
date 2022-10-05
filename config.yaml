@@ -6,7 +6,8 @@ theme: "starter-hugo-academic"
 
 title: Renkai Ma | 马仁凯 # Website name
 baseurl: 'https://renkaima.xyz/' # Website URL
-copyright: '© {2022} Renkai Ma; Updated on Aug 2022'
+googleAnalytics = "UA-244300959-1"
+copyright: '© {2022} Renkai Ma; Updated on Oct, 2022'
 
 ############################
 ## LANGUAGE
