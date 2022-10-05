@@ -27,7 +27,7 @@ url_pdf: https://www.researchgate.net/publication/360795257_I'm_not_sure_what_di
 url_project: "a-yt_mod"
 #url_slides: "slides/cscw2021/Ma_Kou_CSCW2021.pdf"
 #url_source: '#'
-#url_video: 'https://youtu.be/rv-GgvM43_8'
+url_video: https://www.youtube.com/watch?v=vgfY2xsKKc8
 ---
 
 

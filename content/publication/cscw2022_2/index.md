@@ -28,5 +28,5 @@ url_pdf: https://www.researchgate.net/publication/360827367_Esports_Governance_A
 url_project: "b-esports_governance"
 #url_slides: "slides/cscw2021/Ma_Kou_CSCW2021.pdf"
 #url_source: '#'
-#url_video: 'https://youtu.be/rv-GgvM43_8'
+url_video: https://www.youtube.com/watch?v=qB4nJAkWFxg&t=2s
 ---
