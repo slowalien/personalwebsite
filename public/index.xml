@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renkai Ma | 马仁凯</title>
+    <link>https://renkaima.xyz/</link>
+      <atom:link href="https://renkaima.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Renkai Ma | 马仁凯</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2022} Renkai Ma; Updated on Aug 2022</copyright><lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://renkaima.xyz/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Renkai Ma | 马仁凯</title>
+      <link>https://renkaima.xyz/</link>
+    </image>
+    
+    <item>
+      <title>Python basics</title>
+      <link>https://renkaima.xyz/courses/example/python/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/courses/example/python/</guid>
+      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
+&lt;li&gt;Slower than tuples&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tuples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
+&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
+&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
+  &lt;p&gt;Yes&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://renkaima.xyz/courses/example/visualization/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/courses/example/visualization/</guid>
+      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
+  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
+data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
+fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://renkaima.xyz/courses/example/stats/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/courses/example/stats/</guid>
+      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
+&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
+&lt;p&gt;$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The parameter $\mu$ is the mean or expectation of the distribution.
+$\sigma$ is its standard deviation.
+The variance of the distribution is $\sigma^{2}$.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
+  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>One first-authored poster is accepted by CSCW 2022</title>
+      <link>https://renkaima.xyz/post/cscw-2022-poster/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/post/cscw-2022-poster/</guid>
+      <description>&lt;p&gt;Renkai Ma and Yubo Kou. 2022. “I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube. In Companion Publication of the 2022 Conference on Computer Supported Cooperative Work and Social Computing (CSCW ’22 Companion), November 8–22, 2022, Virtual Event, Taiwan. ACM, New York, NY, USA, 5 pages. &lt;a href=&#34;https://doi.org/10.1145/3500868.3559445&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3500868.3559445&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/publication/363116121_I_am_not_a_YouTuber_who_can_make_whatever_video_I_want_I_have_to_keep_appeasing_algorithms_Bureaucracy_of_Creator_Moderation_on_YouTube&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt; is the full text of this poster.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>“I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube</title>
+      <link>https://renkaima.xyz/publication/cscw2022_3/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2022_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esports Governance: An Analysis of Rule Enforcement in League of Legends</title>
+      <link>https://renkaima.xyz/publication/cscw2022_2/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2022_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“I’m not sure what difference is between their content and mine, other than the person itself”: A Study of Fairness Perception of Content Moderation on YouTube</title>
+      <link>https://renkaima.xyz/publication/cscw2022_1/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2022_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two first-authored papers are accepted by CSCW 2022</title>
+      <link>https://renkaima.xyz/post/cscw-2022-news/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/post/cscw-2022-news/</guid>
+      <description>&lt;p&gt;[1] &lt;strong&gt;Renkai Ma&lt;/strong&gt; and &lt;a href=&#34;https://www.yubokou.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yubo Kou&lt;/a&gt;. 2022. “I’m not sure what difference is between their content and mine, other than the person itself”: A Study of Fairness Perception of Content Moderation on YouTube (CSCW&#39; 2022)&lt;/p&gt;
+&lt;p&gt;[2] &lt;strong&gt;Renkai Ma&lt;/strong&gt;, &lt;a href=&#34;https://www.xinninggui.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xinning Gui&lt;/a&gt;, and &lt;a href=&#34;https://www.yubokou.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yubo Kou&lt;/a&gt;. 2022. Esports Governance: An Analysis of Rule Enforcement in League of Legends (CSCW&#39; 2022)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online Community Moderation</title>
+      <link>https://renkaima.xyz/portfolio/b-esports_governance/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/portfolio/b-esports_governance/</guid>
+      <description>&lt;h3 id=&#34;this-paper-is-under-review&#34;&gt;This paper is under review:&lt;/h3&gt;
+&lt;h2 id=&#34;a-study-of-esports-governance-in-league-of-ledgends-this-is-a-tentative-alternative-title&#34;&gt;A study of Esports Governance in League of Ledgends (&lt;em&gt;this is a tentative alternative title&lt;/em&gt;)&lt;/h2&gt;
+&lt;h3 id=&#34;-my-role&#34;&gt;| My role:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Data collection and analysis&lt;/li&gt;
+&lt;li&gt;Theoretical development and partial writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1-problem-statement&#34;&gt;1. Problem Statement&lt;/h3&gt;
+&lt;p&gt;Esports, like traditional sports, face governance challenges. Like traditional sports such as basketball and football, esports faces governance challenges such as foul play, aggressive behaviors on competitive scene, and match fixing, and has the need to govern its participants such as professional players and teams.&lt;/p&gt;
+&lt;p&gt;However, the esports industry has seen various attempts at governance structure but is yet to form a consensus and relatively less attention has been paid to how esports authorities interpret and enforce rules in their governance ecosystem.&lt;/p&gt;
+&lt;h3 id=&#34;2-research-question&#34;&gt;2. Research Question&lt;/h3&gt;
+&lt;h5 id=&#34;rq1-what-behavior-is-conceived-by-the-game-publisher-as-rule-breaking&#34;&gt;RQ1: What behavior is conceived by the game publisher as rule breaking?&lt;/h5&gt;
+&lt;h5 id=&#34;rq2-how-do-contextual-factors-influence-rule-enforcement&#34;&gt;RQ2: How do contextual factors influence rule enforcement?&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;RQ2.1: How does the location of rule breaking influence rule enforcement?&lt;/li&gt;
+&lt;li&gt;RQ2.2: How does the time of rule breaking influence rule enforcement?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-methods&#34;&gt;3. Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;RQ1 - Content analysis on the online archive data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RQ2 - A series of statistical analysis: Cramer’s V, Pearson&amp;rsquo;s correlation, and Kruskal-Wallis H test on the content analysis results&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-findings&#34;&gt;4. Findings&lt;/h3&gt;
+&lt;h4 id=&#34;41-qualitative-findings&#34;&gt;4.1 Qualitative Findings&lt;/h4&gt;
+&lt;h4 id=&#34;11-types-of-ruling-breaking-behaviors-corresponded-to-different-penalty-severity&#34;&gt;11 types of ruling-breaking behaviors corresponded to different penalty severity.&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-frequencies-of-rule-breaking-behaviors-from-august-2012-to-june-2021&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Frequencies of Rule Breaking Behaviors from August 2012 to June 2021&#34; srcset=&#34;
+               /portfolio/b-esports_governance/wider%20version_hu7b09971a2086f87017d9482b9f558367_731245_0f3c2399a8aa76340a08b545a131e3a1.webp 400w,
+               /portfolio/b-esports_governance/wider%20version_hu7b09971a2086f87017d9482b9f558367_731245_fee3c336a5a7ed679ca9464543c0e55a.webp 760w,
+               /portfolio/b-esports_governance/wider%20version_hu7b09971a2086f87017d9482b9f558367_731245_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/b-esports_governance/wider%20version_hu7b09971a2086f87017d9482b9f558367_731245_0f3c2399a8aa76340a08b545a131e3a1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Frequencies of Rule Breaking Behaviors from August 2012 to June 2021
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;41-quantitaitve-findings&#34;&gt;4.1 Quantitaitve Findings&lt;/h4&gt;
+&lt;h4 id=&#34;411-contextual-factors-influence-rule-enforcement&#34;&gt;4.1.1 Contextual factors influence rule enforcement&lt;/h4&gt;
+&lt;p&gt;The quantitative findings unpack the relationship between contextual factors and rule enforcement in Riot’s competitive rulings. In each competitive ruling, Riot determined the type of rule breaking behavior, and then issued a penalty. Next, we uncover how contextual factors are associated with penalty severity and then probe the internal relationship of penalty severity. Finally, we verify the impact of region and perpetrator identity on the distribution of penalty severity.&lt;/p&gt;
+&lt;h4 id=&#34;412-region-matters-in-rule-enforcement&#34;&gt;4.1.2 Region matters in rule enforcement&lt;/h4&gt;
+&lt;p&gt;We found a moderate/medium association between region and three variables, including year, punishment hierarchy, and if fined (Cramer&amp;rsquo;s V coefficient, 0.3 &amp;lt; Φc &amp;lt; 0.5). This result suggested that each region might proportionally have its different dominated punishment hierarchy score and adjudication of fine, released by the game publisher in a specific year.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-cramers-v-results&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cramer&amp;#39;s V results&#34; srcset=&#34;
+               /portfolio/b-esports_governance/vresult_hu43ca7da69eca6496630365255114d0ab_29734_0d415f38f03cc85bbe5ba934fecdc1fd.webp 400w,
+               /portfolio/b-esports_governance/vresult_hu43ca7da69eca6496630365255114d0ab_29734_7946b6fe582f8b850b2ced9a41d691dd.webp 760w,
+               /portfolio/b-esports_governance/vresult_hu43ca7da69eca6496630365255114d0ab_29734_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/b-esports_governance/vresult_hu43ca7da69eca6496630365255114d0ab_29734_0d415f38f03cc85bbe5ba934fecdc1fd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;174&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Cramer&amp;rsquo;s V results
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;kruskal-wallis-k-w-h-test&#34;&gt;Kruskal-Wallis (K-W) H test&lt;/h5&gt;
+&lt;p&gt;To probe the second research question deeper, we ran independent-samples Kruskal-Wallis (K-W) H test to uncover how region affects the distribution of penalty hierarchy. We found that at least one region’s penalty hierarchy distribution was significantly different from other regions with the K-W test result, H (11) = 103.82, p-value &amp;lt; 0.001. However, this result did not inform us where the difference between different regions’ penalty distribution appeared. We thus conducted the post-hoc test, the Dunn-Bonferroni method, to generate a pairwise comparison between regions and penalty hierarchy scores, as shown below. To maintain a lower type-I error, the multiple p-values of each pair of regions’ penalty hierarchy have been adjusted to be adjusted coefficients through Bonferroni error correction.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-pairwise-comparison-of-penalty-hierarchy-distribution-in-regions-after-post-hoc-test&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Pairwise comparison of penalty hierarchy distribution in regions after post-hoc test&#34; srcset=&#34;
+               /portfolio/b-esports_governance/htest_hu5da0c395b9614163c75fe94675b525e2_46377_fcee9bafb6f77256b4808bfd43c3cdc1.webp 400w,
+               /portfolio/b-esports_governance/htest_hu5da0c395b9614163c75fe94675b525e2_46377_816b94444acb39109489fdad9c19ab4f.webp 760w,
+               /portfolio/b-esports_governance/htest_hu5da0c395b9614163c75fe94675b525e2_46377_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/b-esports_governance/htest_hu5da0c395b9614163c75fe94675b525e2_46377_fcee9bafb6f77256b4808bfd43c3cdc1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;239&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Pairwise comparison of penalty hierarchy distribution in regions after post-hoc test
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;413-penalties-are-progressively-harsher-on-a-yearly-basis&#34;&gt;4.1.3 Penalties are progressively harsher on a yearly basis.&lt;/h4&gt;
+&lt;p&gt;We further ran the Pearson&amp;rsquo;s correlation on all ordinal and ratio variables to uncover the linear relationship inside penalty severity and year, as shown in Table 4. We found a weak positive correlation between year and punishment hierarchy (Pearson r = 0.15, p-value &amp;lt; 0.01), implying that the game publisher has progressively released severer penalties over the years. Also, we found that inside of penalty severity, the fine adjudication had weak positive correlation with penalty hierarchy (r = -0.38, p-value &amp;lt; 0.01), penalty quantity per perpetrator (r = 0.21, p-value &amp;lt; 0.01), and fine amount (r = 0.13, p-value = 0.002). This finding suggested that when a game publisher issued a lower level of penalty, it was more likely to appear with a fine adjudication. Also, when a perpetrator received a fine adjudication with a specific fine amount, they are more likely to have more than one penalty. This suggested that fine adjudication more likely acted as a joint penalty with other heavier ones. Collectively, these findings suggest the increasing severity of penalty over the ten-year period.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-pearsons-correlation-results&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Pearson&amp;#39;s Correlation results&#34; srcset=&#34;
+               /portfolio/b-esports_governance/corr_hu6820a69f7b1ac4af37d45ecce9ebe85e_16153_aa889c6f0480eb7f9b713ae850f4ca3b.webp 400w,
+               /portfolio/b-esports_governance/corr_hu6820a69f7b1ac4af37d45ecce9ebe85e_16153_5eea241847a9d104bdf6adfde4d4d9ef.webp 760w,
+               /portfolio/b-esports_governance/corr_hu6820a69f7b1ac4af37d45ecce9ebe85e_16153_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/b-esports_governance/corr_hu6820a69f7b1ac4af37d45ecce9ebe85e_16153_aa889c6f0480eb7f9b713ae850f4ca3b.webp&#34;
+               width=&#34;551&#34;
+               height=&#34;144&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Pearson&amp;rsquo;s Correlation results
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-scatter-plot-time-series-of-penalty-hierarchy&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Scatter Plot (time series) of Penalty Hierarchy&#34; srcset=&#34;
+               /portfolio/b-esports_governance/Scatter%20Plot%20%28time%20series%29%20of%20Penalty%20Hierarchy_hu89b3a34e0225a7235697dc0d4f95f11b_668384_05801d60e117ca07820eadbc46fe7ee5.webp 400w,
+               /portfolio/b-esports_governance/Scatter%20Plot%20%28time%20series%29%20of%20Penalty%20Hierarchy_hu89b3a34e0225a7235697dc0d4f95f11b_668384_0c8ca031e819847f58633beeb29399d8.webp 760w,
+               /portfolio/b-esports_governance/Scatter%20Plot%20%28time%20series%29%20of%20Penalty%20Hierarchy_hu89b3a34e0225a7235697dc0d4f95f11b_668384_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/b-esports_governance/Scatter%20Plot%20%28time%20series%29%20of%20Penalty%20Hierarchy_hu89b3a34e0225a7235697dc0d4f95f11b_668384_05801d60e117ca07820eadbc46fe7ee5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;523&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Scatter Plot (time series) of Penalty Hierarchy
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;summary&#34;&gt;Summary&lt;/h4&gt;
+&lt;p&gt;We showed that rule enforcement in LoL esports is not static but highly contextualized. The severity of penalty correlates with several contextual factors such as year and region.&lt;/p&gt;
+&lt;h3 id=&#34;5-discussions&#34;&gt;5. Discussions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We identified several conspicuous characteristics of rule enforcement in the esports governance of LoL.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The behavioral scope rule enforcement concerns is far-reaching.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The rule enforcement in LoL esports is highly contextual.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The rule enforcement in LoL esports is also dynamic and evolving&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YouTube Moderation</title>
+      <link>https://renkaima.xyz/portfolio/a-yt_mod/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/portfolio/a-yt_mod/</guid>
+      <description>&lt;h3 id=&#34;paper-1-is-acceptated-at-cscw-2021httpscscwacmorg2021&#34;&gt;Paper 1 is acceptated at &lt;a href=&#34;https://cscw.acm.org/2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSCW&#39; 2021&lt;/a&gt;:&lt;/h3&gt;
+&lt;h2 id=&#34;how-advertiser-friendly-is-my-video-youtubers-socioeconomic-interactions-with-algorithmic-content-moderation&#34;&gt;“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation&lt;/h2&gt;
+&lt;h3 id=&#34;-my-role&#34;&gt;| My role:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;All procedures including data collection and analysis&lt;/li&gt;
+&lt;li&gt;Theoretical development, writing, and presenting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-guided-by-my-advisor&#34;&gt;| Guided by my advisor:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Editing, revision and supervision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;-please-see-video-presentation-here&#34;&gt;* Please see video presentation here:&lt;/h4&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rv-GgvM43_8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;1-problem-statement&#34;&gt;1. Problem Statement&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;YouTuber,&amp;rdquo; i.e., content creator nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from the platform) from their content creation and sharing. YouTube decides this income from the viewing times and viewer engagement rates of videos, constituting the &lt;strong&gt;socioeconomic&lt;/strong&gt; content moderation.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-socioecnomic-content-creation-on-youtube&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Socioecnomic Content Creation on YouTube&#34; srcset=&#34;
+               /portfolio/a-yt_mod/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp 400w,
+               /portfolio/a-yt_mod/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_8e54c7a6221ea855142283ccb8f62842.webp 760w,
+               /portfolio/a-yt_mod/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/a-yt_mod/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;395&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Socioecnomic Content Creation on YouTube
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber&amp;rsquo;s video as unacceptable, YouTube will &lt;strong&gt;demonetize&lt;/strong&gt; 💵 💲 a YouTuber&amp;rsquo;s videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos.&lt;/p&gt;
+&lt;p&gt;As social media uses various algorithms (e.g., machine learning) to implement content moderation, little attention has been paid to how users interact with algorithmic moderation and their post-hoc experience. Especially for the users perform profitable content creation, few studies have understand how they receive, perceive, and react to algorithmic content moderation. This study aims to approach this research gap in the context of &lt;strong&gt;socioeconomic&lt;/strong&gt; implications of YouTube moderation.&lt;/p&gt;
+&lt;h3 id=&#34;2-research-question&#34;&gt;2. Research Question&lt;/h3&gt;
+&lt;h5 id=&#34;how-do-youtubers-interact-with-the-socioeconomic-side-of-algorithmic-moderation&#34;&gt;How do YouTubers interact with the socioeconomic side of algorithmic moderation?&lt;/h5&gt;
+&lt;h3 id=&#34;3-methods&#34;&gt;3. Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We scraped online discussion data from the subreddit, r/youtube through a bag of keywords related to content moderation of YouTube. The final dataset contained 2,779 threads with 60,310 individual comments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We inductively ran thematic analysis on the online discussion data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-findings&#34;&gt;4. Findings&lt;/h3&gt;
+&lt;p&gt;a. &lt;strong&gt;Being Confused about Algorithmic Opacity&lt;/strong&gt;: YouTubers who experienced algorithmic punishments felt confused and had no clues of how algorithms made decisions. Even if the adjudication of a moderation case is clear-cut to most people, YouTubers who received the penalty could experience it differently and feel hard to retore its &lt;strong&gt;algorithmic transparency&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. &lt;strong&gt;Managing Algorithmic Precarity&lt;/strong&gt;: Algorithmic moderation engenders the work uncertainty of video content creation and how YouTubers manage their precarity.&lt;/p&gt;
+&lt;p&gt;c. &lt;strong&gt;Learning and Applying Algorithmic Know-How&lt;/strong&gt;: YouTubers collectively made sense of algorithmic punishments, developing and disseminating algorithmic knowledge of YouTube moderation. Specifically, they shared and analyzed their punishment experiences to speculate about moderation algorithms, which in turn informed operations of repairing their past moderation and avoiding future moderation.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-labor-of-youtubers-conditions-in-youtubes-algorithmic-moderation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The Labor of YouTubers Conditions in YouTube&amp;#39;s Algorithmic Moderation&#34; srcset=&#34;
+               /portfolio/a-yt_mod/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp 400w,
+               /portfolio/a-yt_mod/str_hu65afe2b78b6832b34d375ef7a027a937_315566_224c7f13bc09493d7c7d6c0194d74f43.webp 760w,
+               /portfolio/a-yt_mod/str_hu65afe2b78b6832b34d375ef7a027a937_315566_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/a-yt_mod/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;302&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The Labor of YouTubers Conditions in YouTube&amp;rsquo;s Algorithmic Moderation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5-discussion-and-design-considerations&#34;&gt;5. Discussion and Design Considerations&lt;/h3&gt;
+&lt;p&gt;We shed light on the labor of video content creators, the moderated, in coping with their punishments. We showed how moderation algorithms intersect with YouTubers’ content creation work, engendering a necessary form of algorithmic labor to comply with moderation algorithms on YouTube and make their videos “advertiser-friendly.”&lt;/p&gt;
+&lt;h4 id=&#34;51-design-considerations-for-alglorithmic-moderation-systems&#34;&gt;5.1 Design Considerations for Alglorithmic Moderation Systems&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Transparency of algorithmic decision-making process: detailed moderation explanations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Potentially Reimbursement given false-positive moderation decisions: especially for those reversed false moderation decisions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More advanced tools for channel moderation to prevent unacceptable viewer comment from incurring moderation decisions on YouTubers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;paper-2-is-under-review&#34;&gt;Paper 2 is under review:&lt;/h3&gt;
+&lt;h2 id=&#34;how-do-youtubers-perceive-the-fairness-of-youtube-moderation-this-is-a-tentative-alternative-title&#34;&gt;How do YouTubers perceive the fairness of YouTube moderation? (&lt;em&gt;this is a tentative alternative title&lt;/em&gt;)&lt;/h2&gt;
+&lt;h3 id=&#34;-my-role-1&#34;&gt;| My role:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;All procedures including data collection and analysis&lt;/li&gt;
+&lt;li&gt;Theoretical development, writing, and presenting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-guided-by-my-advisor-1&#34;&gt;| Guided by my advisor:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Editing, revision and supervision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1-problem-statement-1&#34;&gt;1. Problem Statement&lt;/h3&gt;
+&lt;p&gt;Researchers have started to investigate how moderation is carried out through sociotechnical structure of humans and algorithms as well as how users interact with algorithmic moderation, from questioning its clarity and transparency to using community support to repair or avoid moderation.&lt;/p&gt;
+&lt;p&gt;What is less discussed in the literature is user’s fairness perception of algorithmic content moderation. Such perceptions germinate in a realistic scenario where algorithms are applied to end-users: users would invoke the notion of &lt;strong&gt;fairness&lt;/strong&gt; to describe their experiences with the (algorithmic) decision-making procedures and outcomes. Thus, this paper aims to approach this research gap.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-workflow-youtubers-interactions-with-algorithmic-moderation-on-youtube&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Workflow: YouTubers&amp;#39; Interactions with Algorithmic Moderation on YouTube&#34; srcset=&#34;
+               /portfolio/a-yt_mod/workflow_huffc893b5ed731e4f54c36789c0cefbe5_341883_f2d04f0f9409b80d198335f4fb0cfc3e.webp 400w,
+               /portfolio/a-yt_mod/workflow_huffc893b5ed731e4f54c36789c0cefbe5_341883_f4d6cc63085253df6ed3c79a492f7975.webp 760w,
+               /portfolio/a-yt_mod/workflow_huffc893b5ed731e4f54c36789c0cefbe5_341883_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/a-yt_mod/workflow_huffc893b5ed731e4f54c36789c0cefbe5_341883_f2d04f0f9409b80d198335f4fb0cfc3e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;244&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Workflow: YouTubers&#39; Interactions with Algorithmic Moderation on YouTube
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2-research-question-1&#34;&gt;2. Research Question&lt;/h3&gt;
+&lt;h5 id=&#34;how-do-youtubers-perceive-the-fairness-of-youtube-moderation&#34;&gt;How do YouTubers perceive the fairness of YouTube moderation?&lt;/h5&gt;
+&lt;h3 id=&#34;3-methods-1&#34;&gt;3. Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Interviewed 21 YouTubers who were in the YouTube Partner Program and had ever experienced YouTube moderation through a semi-structured interview protocol.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inductive thematic analysis on the interview data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-youtubers-demographic-information&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;YouTubers’ demographic information&#34; srcset=&#34;
+               /portfolio/a-yt_mod/interview_hu37b095b18c1c01325bdfd60bc5958c91_204591_82cad6eeef26e5601bf076cd2048ceac.webp 400w,
+               /portfolio/a-yt_mod/interview_hu37b095b18c1c01325bdfd60bc5958c91_204591_8ddeda96ad9c1784c44715100c6765ba.webp 760w,
+               /portfolio/a-yt_mod/interview_hu37b095b18c1c01325bdfd60bc5958c91_204591_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/portfolio/a-yt_mod/interview_hu37b095b18c1c01325bdfd60bc5958c91_204591_82cad6eeef26e5601bf076cd2048ceac.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;395&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      YouTubers’ demographic information
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4-findings-1&#34;&gt;4. Findings&lt;/h3&gt;
+&lt;p&gt;a. YouTubers experience unequal moderation treatments through cross-comparisons.&lt;/p&gt;
+&lt;p&gt;b. YouTubers observe that the moderation system makes inconsistent decisions or that it makes decisions inconsistent with content policies.&lt;/p&gt;
+&lt;p&gt;c. YouTubers do not have voice or control in multiple algorithmic decisions.&lt;/p&gt;
+&lt;h3 id=&#34;5-discussion-and-design-considerations-1&#34;&gt;5. Discussion and Design Considerations&lt;/h3&gt;
+&lt;h4 id=&#34;moderation-fairness-on-youtube-presents-as-a-multi-dimensional-notion&#34;&gt;Moderation fairness on YouTube presents as a multi-dimensional notion:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;it has a temporal dimension in terms of when YouTubers invoke the fairness of YouTube moderation;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;it concerns social context where YouTubers situated their fairness perception;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;value-based dimensions of moderation fairness surfaced in condition in the social, economic, and technical parts of algorithmic content moderation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;what-moderates-youtubers-is-not-just-a-sole-moderation-algorithm&#34;&gt;What moderates YouTubers is not just a sole moderation algorithm.&lt;/h4&gt;
+&lt;p&gt;Instead, it is an algorithmic assemblage composed of different classes of algorithms that moderates content creation. Algorithmic assemblage refers to a mixed “infrastructure that supports implementation, maintenance, use, and evolution of algorithms, data, and platforms.”&lt;/p&gt;
+&lt;h4 id=&#34;51-design-considerations-for-alglorithmic-moderation-systems-1&#34;&gt;5.1 Design Considerations for Alglorithmic Moderation Systems&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To resolve perceived fairness, we thus suggest that YouTube should disclose whether YouTuber’s specific videos are invisible under ‘restricted mode,’ which ought to be listed in the Studio dashboard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Living within an algorithmic assemblage of moderation, YouTubers are entitled to know whenever moderation decisions affect their visibility and monetization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;YouTubers’ voice and input should be more valued in an algorithmic assemblage of moderation decision-making processes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation</title>
+      <link>https://renkaima.xyz/publication/cscw2021/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2021/</guid>
+      <description>&lt;h3 id=&#34;please-watch-the-video-presentation-here&#34;&gt;Please watch the video presentation here:&lt;/h3&gt;
+&lt;h2 id=&#34;hahahugoshortcode-s0-hbhb&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rv-GgvM43_8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;h3 id=&#34;1-problem-statement&#34;&gt;1. Problem Statement&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;YouTuber,&amp;rdquo; i.e., content creator nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from the platform) from their content creation and sharing. YouTube decides this income from the viewing times and viewer engagement rates of videos, constituting the &lt;strong&gt;socioeconomic&lt;/strong&gt; content moderation.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-socioecnomic-content-creation-on-youtube&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Socioecnomic Content Creation on YouTube&#34; srcset=&#34;
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp 400w,
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_8e54c7a6221ea855142283ccb8f62842.webp 760w,
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;395&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Socioecnomic Content Creation on YouTube
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber&amp;rsquo;s video as unacceptable, YouTube will &lt;strong&gt;demonetize&lt;/strong&gt; a YouTuber&amp;rsquo;s videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos.&lt;/p&gt;
+&lt;p&gt;As social media uses various algorithms (e.g., machine learning) to implement content moderation, little attention has been paid to how users interact with algorithmic moderation and their post-hoc experience. Especially for the users perform profitable content creation, few studies have understand how they receive, perceive, and react to algorithmic content moderation. This study aims to approach this research gap in the context of &lt;strong&gt;socioeconomic&lt;/strong&gt; implications of YouTube moderation.&lt;/p&gt;
+&lt;h3 id=&#34;2-research-question&#34;&gt;2. Research Question&lt;/h3&gt;
+&lt;h5 id=&#34;how-do-youtubers-interact-with-the-socioeconomic-side-of-algorithmic-moderation&#34;&gt;How do YouTubers interact with the socioeconomic side of algorithmic moderation?&lt;/h5&gt;
+&lt;h3 id=&#34;3-methods&#34;&gt;3. Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We scraped online discussion data from the subreddit, r/youtube through a bag of keywords related to content moderation of YouTube. The final dataset contained 2,779 threads with 60,310 individual comments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We inductively ran thematic analysis on the online discussion data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-findings&#34;&gt;4. Findings&lt;/h3&gt;
+&lt;p&gt;a. &lt;strong&gt;Being Confused about Algorithmic Opacity&lt;/strong&gt;: YouTubers who experienced algorithmic punishments felt confused and had no clues of how algorithms made decisions. Even if the adjudication of a moderation case is clear-cut to most people, YouTubers who received the penalty could experience it differently and feel hard to retore its &lt;strong&gt;algorithmic transparency&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. &lt;strong&gt;Managing Algorithmic Precarity&lt;/strong&gt;: Algorithmic moderation engenders the work uncertainty of video content creation and how YouTubers manage their precarity by diversifing their income.&lt;/p&gt;
+&lt;p&gt;c. &lt;strong&gt;Learning and Applying Algorithmic Know-How&lt;/strong&gt;: YouTubers collectively made sense out of algorithmic punishments, developing, and disseminating algorithmic knowledge of YouTube moderation. Specifically, they shared and analyzed their punishment experiences to speculate about moderation algorithms, which in turn informed operations of repairing their past moderation and avoiding future moderation.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-labor-of-youtubers-conditions-in-youtubes-algorithmic-moderation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The Labor of YouTubers Conditions in YouTube&amp;#39;s Algorithmic Moderation&#34; srcset=&#34;
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp 400w,
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_224c7f13bc09493d7c7d6c0194d74f43.webp 760w,
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;302&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The Labor of YouTubers Conditions in YouTube&amp;rsquo;s Algorithmic Moderation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5-discussion-and-design-considerations&#34;&gt;5. Discussion and Design Considerations&lt;/h3&gt;
+&lt;p&gt;We shed light on the labor of video content creators and how they handled moderation punishments. We showed how moderation algorithms crafted YouTubers’ content creation work, engendering a necessary form of algorithmic labor to comply with moderation algorithms on YouTube and make their videos “advertiser-friendly.”&lt;/p&gt;
+&lt;h4 id=&#34;51-design-considerations-for-alglorithmic-moderation-systems&#34;&gt;5.1 Design Considerations for Alglorithmic Moderation Systems&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Transparency of algorithmic decision-making process: detailed moderation explanations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Potentially Reimbursement given false-positive moderation decisions: especially for those who reversed false-positive moderation decisions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More advanced tools for channel moderation to prevent unacceptable viewer comment from incurring moderation decisions on YouTubers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online Community Moderation</title>
+      <link>https://renkaima.xyz/project/b-esports_governance/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/project/b-esports_governance/</guid>
+      <description>&lt;p&gt;&amp;ldquo;This is a study of human implications of online moderation systems that deal with disruptive online behaviors, such as offensive language and hate speech, by issuing penalties such as content removal or account suspension to users they determine to be disruptive. These moderation systems usually fail to provide punished users enough support in terms of explaining why they are punished and suggesting how they can improve. Such severe limitations in fairness, accountability, and transparency lead to enormous challenges to online moderation and community wellbeing.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For more details, please look at Dr. Yubo Kou&amp;rsquo;s &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=2006854&amp;amp;HistoricalAwards=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NSF funding page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creator Moderation</title>
+      <link>https://renkaima.xyz/project/a-yt_mod/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/project/a-yt_mod/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Content Creator&lt;/strong&gt; like YouTuber nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from YouTube or Creator Fund from TikTok) from their content creation and sharing. But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber&amp;rsquo;s video as unacceptable, YouTube will demonetize 💵 💲 a YouTuber&amp;rsquo;s videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos.&lt;/p&gt;
+&lt;p&gt;Content moderation originally refers to mechanisms of ruling abuse and facilitating cooperation in online platforms, and now thus can become a source of socioeconomic punishment on video sharing platforms like YouTube or TikTok, beyond the suppression of expression online.&lt;/p&gt;
+&lt;p&gt;This &lt;strong&gt;Creator Moderation&lt;/strong&gt; consists of multiple governance mechanisms managing content creators’ visibility, identity, revenue, labor, and more. Given platformization and monetization of creative labor, video sharing platforms like YouTube and TikTok tend to practice creator moderation through an assemblage of various algorithms (e.g., monetization, content moderation, recommendation algorithms, and more). So, creators may correspondingly experience moderation such as demonetization or shadowban. Thus, there is a need in understanding creators’ moderation experiences.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://renkaima.xyz/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://renkaima.xyz/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

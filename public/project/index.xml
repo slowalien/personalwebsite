@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Renkai Ma | 马仁凯</title>
+    <link>https://renkaima.xyz/project/</link>
+      <atom:link href="https://renkaima.xyz/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2022} Renkai Ma; Updated on Aug 2022</copyright><lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://renkaima.xyz/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://renkaima.xyz/project/</link>
+    </image>
+    
+    <item>
+      <title>Online Community Moderation</title>
+      <link>https://renkaima.xyz/project/b-esports_governance/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/project/b-esports_governance/</guid>
+      <description>&lt;p&gt;&amp;ldquo;This is a study of human implications of online moderation systems that deal with disruptive online behaviors, such as offensive language and hate speech, by issuing penalties such as content removal or account suspension to users they determine to be disruptive. These moderation systems usually fail to provide punished users enough support in terms of explaining why they are punished and suggesting how they can improve. Such severe limitations in fairness, accountability, and transparency lead to enormous challenges to online moderation and community wellbeing.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For more details, please look at Dr. Yubo Kou&amp;rsquo;s &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=2006854&amp;amp;HistoricalAwards=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NSF funding page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creator Moderation</title>
+      <link>https://renkaima.xyz/project/a-yt_mod/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/project/a-yt_mod/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Content Creator&lt;/strong&gt; like YouTuber nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from YouTube or Creator Fund from TikTok) from their content creation and sharing. But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber&amp;rsquo;s video as unacceptable, YouTube will demonetize 💵 💲 a YouTuber&amp;rsquo;s videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos.&lt;/p&gt;
+&lt;p&gt;Content moderation originally refers to mechanisms of ruling abuse and facilitating cooperation in online platforms, and now thus can become a source of socioeconomic punishment on video sharing platforms like YouTube or TikTok, beyond the suppression of expression online.&lt;/p&gt;
+&lt;p&gt;This &lt;strong&gt;Creator Moderation&lt;/strong&gt; consists of multiple governance mechanisms managing content creators’ visibility, identity, revenue, labor, and more. Given platformization and monetization of creative labor, video sharing platforms like YouTube and TikTok tend to practice creator moderation through an assemblage of various algorithms (e.g., monetization, content moderation, recommendation algorithms, and more). So, creators may correspondingly experience moderation such as demonetization or shadowban. Thus, there is a need in understanding creators’ moderation experiences.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

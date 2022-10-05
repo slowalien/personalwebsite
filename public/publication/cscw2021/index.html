@@ -1,0 +1,1395 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Renkai Ma" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We uncover and discuss the socioeconomic implication of algorithmic content moderation on YouTube." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://renkaima.xyz/publication/cscw2021/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.546613fa5b9d3ce91f7f19c7e6bb3225.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://renkaima.xyz/publication/cscw2021/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Renkai Ma | 马仁凯" />
+  <meta property="og:url" content="https://renkaima.xyz/publication/cscw2021/" />
+  <meta property="og:title" content="“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation | Renkai Ma | 马仁凯" />
+  <meta property="og:description" content="We uncover and discuss the socioeconomic implication of algorithmic content moderation on YouTube." /><meta property="og:image" content="https://renkaima.xyz/publication/cscw2021/featured.jpeg" />
+    <meta property="twitter:image" content="https://renkaima.xyz/publication/cscw2021/featured.jpeg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-07-23T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-07-23T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://renkaima.xyz/publication/cscw2021/"
+  },
+  "headline": "“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation",
+  
+  "image": [
+    "https://renkaima.xyz/publication/cscw2021/featured.jpeg"
+  ],
+  
+  "datePublished": "2021-07-23T00:00:00Z",
+  "dateModified": "2021-07-23T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Renkai Ma"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Renkai Ma | 马仁凯",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://renkaima.xyz/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "We uncover and discuss the socioeconomic implication of algorithmic content moderation on YouTube."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation | Renkai Ma | 马仁凯</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97ef890d96bad61891eae25174c2c89d" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Renkai Ma | 马仁凯</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Renkai Ma | 马仁凯</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/renkai_ma" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/renkai-ma/">Renkai Ma</a></span>, <span >
+      <a href="/author/yubo-kou/">Yubo Kou</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://www.researchgate.net/publication/355078337_How_advertiser-friendly_is_my_video_YouTuber%27s_Socioeconomic_Interactions_with_Algorithmic_Content_Moderation" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/cscw2021/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/a-yt_mod/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/slides/cscw2021/Ma_Kou_CSCW2021.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/rv-GgvM43_8" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3479573" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/publication/cscw2021/featured_huf995e219efb9a4ba22bbd5bd54c81833_156170_720x2500_fit_q75_h2_lanczos.webp" width="720" height="480" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/VLzAkbs5afg"><strong>Unsplash</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">To manage user-generated harmful video content, YouTube relies on AI algorithms (e.g., machine learning) in content moderation and follows a retributive justice logic to punish convicted YouTubers through demonetization, a penalty that limits or deprives them of advertisements (ads), reducing their future ad income. Moderation research is burgeoning in CSCW, but relatively little attention has been paid to the socioeconomic implications of YouTube&rsquo;s algorithmic moderation. Drawing from the lens of algorithmic labor, we describe how algorithmic moderation shapes YouTubers' labor conditions through algorithmic opacity and precarity. YouTubers coped with such challenges from algorithmic moderation by sharing and applying practical knowledge they learned about moderation algorithms. By analyzing video content creation as algorithmic labor, we unpack the socioeconomic implications of algorithmic moderation and point to necessary post-punishment support as a form of restorative justice. Lastly, we put forward design considerations for algorithmic moderation systems.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>PACM  on  Human  Computer  Interaction</em>, Vol.  5, CSCW2</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><h3 id="please-watch-the-video-presentation-here">Please watch the video presentation here:</h3>
+<h2 id="hahahugoshortcode-s0-hbhb">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/rv-GgvM43_8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</h2>
+<h3 id="1-problem-statement">1. Problem Statement</h3>
+<p>&ldquo;YouTuber,&rdquo; i.e., content creator nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from the platform) from their content creation and sharing. YouTube decides this income from the viewing times and viewer engagement rates of videos, constituting the <strong>socioeconomic</strong> content moderation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-socioecnomic-content-creation-on-youtube">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Socioecnomic Content Creation on YouTube" srcset="
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp 400w,
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_8e54c7a6221ea855142283ccb8f62842.webp 760w,
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp"
+               width="760"
+               height="395"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Socioecnomic Content Creation on YouTube
+    </figcaption></figure>
+<p>But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber&rsquo;s video as unacceptable, YouTube will <strong>demonetize</strong> a YouTuber&rsquo;s videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos.</p>
+<p>As social media uses various algorithms (e.g., machine learning) to implement content moderation, little attention has been paid to how users interact with algorithmic moderation and their post-hoc experience. Especially for the users perform profitable content creation, few studies have understand how they receive, perceive, and react to algorithmic content moderation. This study aims to approach this research gap in the context of <strong>socioeconomic</strong> implications of YouTube moderation.</p>
+<h3 id="2-research-question">2. Research Question</h3>
+<h5 id="how-do-youtubers-interact-with-the-socioeconomic-side-of-algorithmic-moderation">How do YouTubers interact with the socioeconomic side of algorithmic moderation?</h5>
+<h3 id="3-methods">3. Methods</h3>
+<ul>
+<li>
+<p>We scraped online discussion data from the subreddit, r/youtube through a bag of keywords related to content moderation of YouTube. The final dataset contained 2,779 threads with 60,310 individual comments.</p>
+</li>
+<li>
+<p>We inductively ran thematic analysis on the online discussion data.</p>
+</li>
+</ul>
+<h3 id="4-findings">4. Findings</h3>
+<p>a. <strong>Being Confused about Algorithmic Opacity</strong>: YouTubers who experienced algorithmic punishments felt confused and had no clues of how algorithms made decisions. Even if the adjudication of a moderation case is clear-cut to most people, YouTubers who received the penalty could experience it differently and feel hard to retore its <strong>algorithmic transparency</strong>.</p>
+<p>b. <strong>Managing Algorithmic Precarity</strong>: Algorithmic moderation engenders the work uncertainty of video content creation and how YouTubers manage their precarity by diversifing their income.</p>
+<p>c. <strong>Learning and Applying Algorithmic Know-How</strong>: YouTubers collectively made sense out of algorithmic punishments, developing, and disseminating algorithmic knowledge of YouTube moderation. Specifically, they shared and analyzed their punishment experiences to speculate about moderation algorithms, which in turn informed operations of repairing their past moderation and avoiding future moderation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-labor-of-youtubers-conditions-in-youtubes-algorithmic-moderation">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="The Labor of YouTubers Conditions in YouTube&#39;s Algorithmic Moderation" srcset="
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp 400w,
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_224c7f13bc09493d7c7d6c0194d74f43.webp 760w,
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp"
+               width="760"
+               height="302"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      The Labor of YouTubers Conditions in YouTube&rsquo;s Algorithmic Moderation
+    </figcaption></figure>
+<h3 id="5-discussion-and-design-considerations">5. Discussion and Design Considerations</h3>
+<p>We shed light on the labor of video content creators and how they handled moderation punishments. We showed how moderation algorithms crafted YouTubers’ content creation work, engendering a necessary form of algorithmic labor to comply with moderation algorithms on YouTube and make their videos “advertiser-friendly.”</p>
+<h4 id="51-design-considerations-for-alglorithmic-moderation-systems">5.1 Design Considerations for Alglorithmic Moderation Systems</h4>
+<ul>
+<li>
+<p>Transparency of algorithmic decision-making process: detailed moderation explanations.</p>
+</li>
+<li>
+<p>Potentially Reimbursement given false-positive moderation decisions: especially for those who reversed false-positive moderation decisions.</p>
+</li>
+<li>
+<p>More advanced tools for channel moderation to prevent unacceptable viewer comment from incurring moderation decisions on YouTubers.</p>
+</li>
+</ul>
+</div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/source-themes/">Source Themes</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://renkaima.xyz/publication/cscw2021/&amp;text=%e2%80%9cHow%20advertiser-friendly%20is%20my%20video?%e2%80%9d:%20YouTuber%e2%80%99s%20Socioeconomic%20Interactions%20with%20Algorithmic%20Content%20Moderation" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://renkaima.xyz/publication/cscw2021/&amp;t=%e2%80%9cHow%20advertiser-friendly%20is%20my%20video?%e2%80%9d:%20YouTuber%e2%80%99s%20Socioeconomic%20Interactions%20with%20Algorithmic%20Content%20Moderation" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e2%80%9cHow%20advertiser-friendly%20is%20my%20video?%e2%80%9d:%20YouTuber%e2%80%99s%20Socioeconomic%20Interactions%20with%20Algorithmic%20Content%20Moderation&amp;body=https://renkaima.xyz/publication/cscw2021/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://renkaima.xyz/publication/cscw2021/&amp;title=%e2%80%9cHow%20advertiser-friendly%20is%20my%20video?%e2%80%9d:%20YouTuber%e2%80%99s%20Socioeconomic%20Interactions%20with%20Algorithmic%20Content%20Moderation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e2%80%9cHow%20advertiser-friendly%20is%20my%20video?%e2%80%9d:%20YouTuber%e2%80%99s%20Socioeconomic%20Interactions%20with%20Algorithmic%20Content%20Moderation%20https://renkaima.xyz/publication/cscw2021/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://renkaima.xyz/publication/cscw2021/&amp;title=%e2%80%9cHow%20advertiser-friendly%20is%20my%20video?%e2%80%9d:%20YouTuber%e2%80%99s%20Socioeconomic%20Interactions%20with%20Algorithmic%20Content%20Moderation" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://renkaima.xyz/"><img class="avatar mr-3 avatar-circle" src="/author/renkai-ma/avatar_hu196aaa36fbc6f3d773f603dcc9f64c07_1090092_270x270_fill_lanczos_center_3.png" alt="Renkai Ma"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://renkaima.xyz/">Renkai Ma</a></h5>
+      <h6 class="card-subtitle">PhD student</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:renkai@psu.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/renkai_ma" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=J-lruG8AAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/rkma/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Renkai-Ma-2" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/cscw2022_3/">“I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube</a></li>
+      
+      <li><a href="/publication/cscw2022_2/">Esports Governance: An Analysis of Rule Enforcement in League of Legends</a></li>
+      
+      <li><a href="/publication/cscw2022_1/">“I’m not sure what difference is between their content and mine, other than the person itself”: A Study of Fairness Perception of Content Moderation on YouTube</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © {2022} Renkai Ma; Updated on Aug 2022
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.57dd1bad0e2e6c53a115383ffd18b0d0.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

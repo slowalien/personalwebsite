@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yubo Kou | Renkai Ma | 马仁凯</title>
+    <link>https://renkaima.xyz/author/yubo-kou/</link>
+      <atom:link href="https://renkaima.xyz/author/yubo-kou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yubo Kou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2022} Renkai Ma; Updated on Aug 2022</copyright><lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://renkaima.xyz/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Yubo Kou</title>
+      <link>https://renkaima.xyz/author/yubo-kou/</link>
+    </image>
+    
+    <item>
+      <title>“I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube</title>
+      <link>https://renkaima.xyz/publication/cscw2022_3/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2022_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esports Governance: An Analysis of Rule Enforcement in League of Legends</title>
+      <link>https://renkaima.xyz/publication/cscw2022_2/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2022_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“I’m not sure what difference is between their content and mine, other than the person itself”: A Study of Fairness Perception of Content Moderation on YouTube</title>
+      <link>https://renkaima.xyz/publication/cscw2022_1/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2022_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“How advertiser-friendly is my video?”: YouTuber’s Socioeconomic Interactions with Algorithmic Content Moderation</title>
+      <link>https://renkaima.xyz/publication/cscw2021/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/publication/cscw2021/</guid>
+      <description>&lt;h3 id=&#34;please-watch-the-video-presentation-here&#34;&gt;Please watch the video presentation here:&lt;/h3&gt;
+&lt;h2 id=&#34;hahahugoshortcode-s0-hbhb&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rv-GgvM43_8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;h3 id=&#34;1-problem-statement&#34;&gt;1. Problem Statement&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;YouTuber,&amp;rdquo; i.e., content creator nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from the platform) from their content creation and sharing. YouTube decides this income from the viewing times and viewer engagement rates of videos, constituting the &lt;strong&gt;socioeconomic&lt;/strong&gt; content moderation.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-socioecnomic-content-creation-on-youtube&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Socioecnomic Content Creation on YouTube&#34; srcset=&#34;
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp 400w,
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_8e54c7a6221ea855142283ccb8f62842.webp 760w,
+               /publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/publication/cscw2021/income_hu15d393aeb64bd889b96ac2b57d832ff9_352192_b7ce447bd05bbc77ecb3104fc671916e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;395&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Socioecnomic Content Creation on YouTube
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber&amp;rsquo;s video as unacceptable, YouTube will &lt;strong&gt;demonetize&lt;/strong&gt; a YouTuber&amp;rsquo;s videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos.&lt;/p&gt;
+&lt;p&gt;As social media uses various algorithms (e.g., machine learning) to implement content moderation, little attention has been paid to how users interact with algorithmic moderation and their post-hoc experience. Especially for the users perform profitable content creation, few studies have understand how they receive, perceive, and react to algorithmic content moderation. This study aims to approach this research gap in the context of &lt;strong&gt;socioeconomic&lt;/strong&gt; implications of YouTube moderation.&lt;/p&gt;
+&lt;h3 id=&#34;2-research-question&#34;&gt;2. Research Question&lt;/h3&gt;
+&lt;h5 id=&#34;how-do-youtubers-interact-with-the-socioeconomic-side-of-algorithmic-moderation&#34;&gt;How do YouTubers interact with the socioeconomic side of algorithmic moderation?&lt;/h5&gt;
+&lt;h3 id=&#34;3-methods&#34;&gt;3. Methods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We scraped online discussion data from the subreddit, r/youtube through a bag of keywords related to content moderation of YouTube. The final dataset contained 2,779 threads with 60,310 individual comments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We inductively ran thematic analysis on the online discussion data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-findings&#34;&gt;4. Findings&lt;/h3&gt;
+&lt;p&gt;a. &lt;strong&gt;Being Confused about Algorithmic Opacity&lt;/strong&gt;: YouTubers who experienced algorithmic punishments felt confused and had no clues of how algorithms made decisions. Even if the adjudication of a moderation case is clear-cut to most people, YouTubers who received the penalty could experience it differently and feel hard to retore its &lt;strong&gt;algorithmic transparency&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;b. &lt;strong&gt;Managing Algorithmic Precarity&lt;/strong&gt;: Algorithmic moderation engenders the work uncertainty of video content creation and how YouTubers manage their precarity by diversifing their income.&lt;/p&gt;
+&lt;p&gt;c. &lt;strong&gt;Learning and Applying Algorithmic Know-How&lt;/strong&gt;: YouTubers collectively made sense out of algorithmic punishments, developing, and disseminating algorithmic knowledge of YouTube moderation. Specifically, they shared and analyzed their punishment experiences to speculate about moderation algorithms, which in turn informed operations of repairing their past moderation and avoiding future moderation.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-labor-of-youtubers-conditions-in-youtubes-algorithmic-moderation&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The Labor of YouTubers Conditions in YouTube&amp;#39;s Algorithmic Moderation&#34; srcset=&#34;
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp 400w,
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_224c7f13bc09493d7c7d6c0194d74f43.webp 760w,
+               /publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://renkaima.xyz/publication/cscw2021/str_hu65afe2b78b6832b34d375ef7a027a937_315566_248f12a3fc13fcf4e7807de48bfecc68.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;302&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The Labor of YouTubers Conditions in YouTube&amp;rsquo;s Algorithmic Moderation
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5-discussion-and-design-considerations&#34;&gt;5. Discussion and Design Considerations&lt;/h3&gt;
+&lt;p&gt;We shed light on the labor of video content creators and how they handled moderation punishments. We showed how moderation algorithms crafted YouTubers’ content creation work, engendering a necessary form of algorithmic labor to comply with moderation algorithms on YouTube and make their videos “advertiser-friendly.”&lt;/p&gt;
+&lt;h4 id=&#34;51-design-considerations-for-alglorithmic-moderation-systems&#34;&gt;5.1 Design Considerations for Alglorithmic Moderation Systems&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Transparency of algorithmic decision-making process: detailed moderation explanations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Potentially Reimbursement given false-positive moderation decisions: especially for those who reversed false-positive moderation decisions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More advanced tools for channel moderation to prevent unacceptable viewer comment from incurring moderation decisions on YouTubers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

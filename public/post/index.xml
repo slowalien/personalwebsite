@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Renkai Ma | 马仁凯</title>
+    <link>https://renkaima.xyz/post/</link>
+      <atom:link href="https://renkaima.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© {2022} Renkai Ma; Updated on Aug 2022</copyright><lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://renkaima.xyz/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://renkaima.xyz/post/</link>
+    </image>
+    
+    <item>
+      <title>One first-authored poster is accepted by CSCW 2022</title>
+      <link>https://renkaima.xyz/post/cscw-2022-poster/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/post/cscw-2022-poster/</guid>
+      <description>&lt;p&gt;Renkai Ma and Yubo Kou. 2022. “I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube. In Companion Publication of the 2022 Conference on Computer Supported Cooperative Work and Social Computing (CSCW ’22 Companion), November 8–22, 2022, Virtual Event, Taiwan. ACM, New York, NY, USA, 5 pages. &lt;a href=&#34;https://doi.org/10.1145/3500868.3559445&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1145/3500868.3559445&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/publication/363116121_I_am_not_a_YouTuber_who_can_make_whatever_video_I_want_I_have_to_keep_appeasing_algorithms_Bureaucracy_of_Creator_Moderation_on_YouTube&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt; is the full text of this poster.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two first-authored papers are accepted by CSCW 2022</title>
+      <link>https://renkaima.xyz/post/cscw-2022-news/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://renkaima.xyz/post/cscw-2022-news/</guid>
+      <description>&lt;p&gt;[1] &lt;strong&gt;Renkai Ma&lt;/strong&gt; and &lt;a href=&#34;https://www.yubokou.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yubo Kou&lt;/a&gt;. 2022. “I’m not sure what difference is between their content and mine, other than the person itself”: A Study of Fairness Perception of Content Moderation on YouTube (CSCW&#39; 2022)&lt;/p&gt;
+&lt;p&gt;[2] &lt;strong&gt;Renkai Ma&lt;/strong&gt;, &lt;a href=&#34;https://www.xinninggui.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xinning Gui&lt;/a&gt;, and &lt;a href=&#34;https://www.yubokou.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yubo Kou&lt;/a&gt;. 2022. Esports Governance: An Analysis of Rule Enforcement in League of Legends (CSCW&#39; 2022)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
