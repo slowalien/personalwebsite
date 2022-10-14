@@ -3,8 +3,8 @@ email: mailto:renkai@psu.edu
 highlight_name: true
 interests:
 - Human-Computer Interaction
-- Computer-supported Cooperative Work
-- Creator Governance
+- Social Computing
+- Creator Moderation/Governance
 - Content Moderation
 organizations:
 - name: Pennsylvania State University
@@ -35,8 +35,8 @@ superuser: true
 title: Renkai Ma
 ---
 
-I am currently a third-year Ph.D. student, majoring in Human-computer interaction (**HCI**), at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
+I am currently a third-year Ph.D. student in Human-computer interaction (**HCI**), at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
 
-I am passionate about studying questions regarding HCI, social media **content moderation**, and **video content creator/influencer's experiences** under platform governance through mixed methods.
+I am passionate about studying questions regarding HCI, social media **content moderation**, and how **content creator/influencer's experiences** under creator governance (e.g., content rules, monetization, recommendation algorithms, content moderation) through mixed methods.
 
-Recently, I work on projects of investigating how users, including (1) players from online multiplayer games and (2) video content creators from **multiple** platforms such as TikTok, Instagram, YouTube, Twitch and more, interact with technologies and people, separately.
+Recently, I work on projects of investigating how (1) players from online multiplayer games and (2) content creators from **multiple** platforms such as TikTok, Instagram, YouTube, Twitch and more, interact with technologies and people, separately.
