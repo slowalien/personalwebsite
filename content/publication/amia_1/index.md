@@ -3,7 +3,7 @@ abstract: This review reports the user experience of symptom checkers, aiming to
 
 authors:
 - Yue You
-- Renkai Ma
+- admin
 - Xinning Gui
 date: "2022-10-04T00:00:00Z"
 #doi: "10.1145/3500868.3559445"

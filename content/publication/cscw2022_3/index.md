@@ -23,9 +23,9 @@ tags:
 - Source Themes
 title: "“I am not a YouTuber who can make whatever video I want. I have to keep appeasing algorithms”: Bureaucracy of Creator Moderation on YouTube"
 url_pdf: https://www.researchgate.net/publication/363116121_I_am_not_a_YouTuber_who_can_make_whatever_video_I_want_I_have_to_keep_appeasing_algorithms_Bureaucracy_of_Creator_Moderation_on_YouTube
-#url_poster: '#'
+url_poster: 'https://drive.google.com/file/d/1VzXNFjGHtfCEaNM5CY3mj85YLcL-VZ4W/view?usp=sharing'
 url_project: "a-yt_mod"
 #url_slides: "slides/cscw2021/Ma_Kou_CSCW2021.pdf"
 #url_source: '#'
-#url_video: 'https://youtu.be/rv-GgvM43_8'
+url_video: 'https://www.youtube.com/watch?v=MKxdvU3pX8c'
 ---
