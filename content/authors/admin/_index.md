@@ -19,8 +19,8 @@ social:
   icon_pack: fab
   label: Follow me on Twitter
   link: https://twitter.com/renkai_ma
-- icon: graduation-cap
-  icon_pack: fas
+- icon: google-scholar
+  icon_pack: ai
   link: https://scholar.google.com/citations?user=J-lruG8AAAAJ&hl=en&oi=ao
 #- icon: github
 #  icon_pack: fab
@@ -35,8 +35,8 @@ superuser: true
 title: Renkai Ma
 ---
 
-I am currently a third-year Ph.D. student in Human-computer interaction (**HCI**), at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
+👋Hi! I am currently a third-year Ph.D. student in Human-computer interaction (**HCI**), at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
 
-I am passionate about studying questions regarding HCI, **content moderation**, and content creator/influencer's experiences under **creator moderation/governance** (e.g., content rules, monetization, recommendation algorithms, content moderation mechanisms) through mixed methods.
+I am passionate about studying HCI, **content moderation**, and content creator/influencer's experiences under **creator moderation/governance** (e.g., content rules, monetization, recommendation algorithms, content moderation mechanisms) through mixed methods.
 
 Recently, I work on projects of investigating how (1) players from online multiplayer games and (2) content creators from **multiple** platforms such as TikTok, Instagram, YouTube, Twitch and more, interact with technologies and people, separately.
