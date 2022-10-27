@@ -39,4 +39,4 @@ title: Renkai Ma
 
 I am passionate about studying HCI, **content moderation**, and content creator/influencer's experiences with **creator moderation/governance** (e.g., content rules, monetization, recommendation algorithms, content moderation mechanisms) through mixed methods.
 
-Recently, I work on projects of investigating how (1) players from online multiplayer games and (2) content creators from **multiple** platforms such as TikTok, Instagram, YouTube, Twitch and more, interact with technologies and people, separately.
+Recently, I work on projects of investigating how (1) players from online multiplayer games and (2) content creators from multiple platforms such as TikTok, Instagram, YouTube, Twitch and more, interact with technologies and people, separately.
