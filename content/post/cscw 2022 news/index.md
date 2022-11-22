@@ -2,7 +2,7 @@
 title: Two first-authored papers are accepted by CSCW 2022
 
 # Link this post with a project
-#projects: []
+#projects: [a-yt_mod]
 
 # Date published
 date: "2022-04-01T00:00:00Z"
