@@ -11,7 +11,7 @@ links:
   name: Follow
   url: https://twitter.com/renkai_ma
 slides: 
-summary:  A project I **lead** to investigate how creators like YouTubers, while performing profitable content creation on YouTube, experience algorithmic content moderation and handle various algorithmic impacts.
+summary:  A project I **lead** to investigate how creators like YouTubers, while performing profitable content creation on YouTube, experience algorithmic creator moderation and handle various algorithmic impacts.
 tags:
 title: Creator Moderation
 url_code: ""
@@ -19,8 +19,9 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-**Content Creator** like YouTuber nowadays could be a profitable job for many people who aim to earn money (primarily advertising income from YouTube or Creator Fund from TikTok) from their content creation and sharing. But not all video content is advertiser-friendly or acceptable to communities. When YouTube deems a YouTuber's video as unacceptable, YouTube will demonetize :dollar: :heavy_dollar_sign: a YouTuber's videos or channels, eventually denying them from earning more future ad revenue through placing limited or no ads on the videos. 
+**Content Creator** like YouTuber or Influencers on Instagram nowadays could be a profitable job for many people who aim to earn money (advertising income from YouTube or Creator Fund from TikTok) from their content creation and sharing. However, being content creators does not mean absolute freedom of content creation, and also, making money on platforms does not indicate secure employment. 
 
-Content moderation originally refers to mechanisms of ruling abuse and facilitating cooperation in online platforms, and now thus can become a source of socioeconomic punishment on video sharing platforms like YouTube or TikTok, beyond the suppression of expression online. 
+That is because creators live in **creator moderation, where multiple sociotechnical mechanisms exert control beyond creators’ content to their careers such as income, visibility, audience engagement and more.** For example, if YouTube deems a video is not advertiser friendly, it will place limited or no ads on this video. Then, creator will receive decreased or nearly no money from such video because they underperformed in viewing times, watching hours, and audience engagement. Even creators’ fanbase increment will be negatively impacted.   
 
-This **Creator Moderation** consists of multiple governance mechanisms managing content creators’ visibility, identity, revenue, labor, and more. Given platformization and monetization of creative labor, video sharing platforms like YouTube and TikTok tend to practice creator moderation through an assemblage of various algorithms (e.g., monetization, content moderation, recommendation algorithms, and more). So, creators may correspondingly experience moderation such as demonetization or shadowban. Thus, there is a need in understanding creators’ moderation experiences.
+Currently, I have gained understanding of (1) the socioeconomic implications of creator moderation on creators, a paper published in [CSCW' 2021](https://dl.acm.org/doi/10.1145/3479573); (2) the perceived unfairness of moderation decision-making, a [CSCW' 2022 paper](https://dl.acm.org/doi/10.1145/3555150); and (3) organizational bureaucracy challenge creators to negotiate for their interests, a [CSCW' 2022 poster](https://dl.acm.org/doi/10.1145/3500868.3559445). 
+
