@@ -2,7 +2,7 @@
 title: One first-authored poster is accepted by CSCW 2022
 
 # Link this post with a project
-#projects: []
+projects: [a-yt_mod]
 
 # Date published
 date: "2022-08-29T00:00:00Z"
@@ -11,7 +11,7 @@ date: "2022-08-29T00:00:00Z"
 lastmod: "2022-08-29T00:00:00Z"
 
 # Is this an unpublished draft?
-#draft: false
+draft: false
 
 # Show this page in the Featured widget?
 featured: false
