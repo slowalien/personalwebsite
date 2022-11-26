@@ -37,6 +37,6 @@ title: Renkai Ma
 
 👋Hi! I am currently a third-year Ph.D. student in Human-computer interaction (**HCI**), at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
 
-I am passionate about studying HCI, **content moderation**, and content creator/influencer's experiences with **creator moderation/governance** (e.g., content rules, monetization, recommendation algorithms, content moderation mechanisms) through mixed methods.
+I am passionate about studying HCI, **content moderation**, and content creator/influencer's experiences with **creator moderation/governance** (e.g., content rules, monetization, recommendation, content moderation mechanisms) through mixed methods.
 
 Recently, I work on projects of investigating how (1) players from online multiplayer games and (2) content creators from multiple platforms such as TikTok, Instagram, YouTube, Twitch and more, interact with technologies and people, separately.
