@@ -11,7 +11,7 @@ links:
   name: Follow
   url: https://twitter.com/renkai_ma
 slides: 
-summary:  A project I **lead** to investigate how creators like YouTubers, while performing profitable content creation on YouTube, experience algorithmic creator moderation and handle various algorithmic impacts.
+summary:  A project I **lead** to investigate how creators like YouTubers or influencers on Instagram or TikTok, while performing profitable content creation, experience creator moderation.
 tags:
 title: Creator Moderation
 url_code: ""
