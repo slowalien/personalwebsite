@@ -35,7 +35,7 @@ superuser: true
 title: Renkai Ma
 ---
 
-👋Hi! I am currently a third-year Ph.D. student in Human-computer interaction (**HCI**)/Human-centered design, at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
+👋Hi! I am currently a third-year Ph.D. candidate in Human-computer interaction (HCI)/Human-centered design, at Pennsylvania State University's [College of Information Sciences and Technology](https://ist.psu.edu/), where I am advised by [Dr. Yubo Kou](https://www.yubokou.info/). 
 
 I am passionate about studying HCI, content moderation, and content creator/influencer's experiences with **creator moderation/governance** (e.g., content rules, monetization, recommendation, content moderation mechanisms) through mixed methods.
 
