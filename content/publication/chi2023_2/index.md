@@ -25,7 +25,7 @@ tags:
 title: "Transparency, Fairness, and Coping: How Players Experience Moderation in Multiplayer Online Games"
 url_pdf: https://www.researchgate.net/publication/368358442_Transparency_Fairness_and_Coping_How_Players_Experience_Moderation_in_Multiplayer_Online_Games
 #url_poster: '#'
-#url_project: "a-yt_mod"
+url_project: "b-esports_governance"
 #url_slides: "slides/cscw2021/Ma_Kou_CSCW2021.pdf"
 #url_source: '#'
 #url_video: https://www.youtube.com/watch?v=vgfY2xsKKc8
